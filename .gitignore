@@ -1,0 +1,49 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django and environment-specific files
+db.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Django migrations
+**/migrations/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Static and media files
+staticfiles/
+media/
+
+# Node modules (if using npm for frontend assets)
+node_modules/
+
+# Compiled static files
+*.sass-cache
+*.scss-cache
+*.css.map
+*.js.map
+
+# macOS specific files
+.DS_Store
+
+# Temporary files and secrets
+*.swp
+*.bak
+*.backup
